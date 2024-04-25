@@ -63,3 +63,9 @@ section.top-site .flex {
     font-size: 20px;
     margin: 40px;
 }
+
+.top-site img {
+    position: relative;
+    height: auto;
+    width: 50%;
+} 
