@@ -1,0 +1,106 @@
+.header {
+    background-image: url("../assents/papa.jpg");
+    height: 40vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    top: 80%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.content {
+    justify-content: space-between;
+    display: inline-block;
+    flex-direction: row;
+    display: flex;
+    padding: 2%;
+    height: 500px;
+}
+
+.menu-sobre-mim {
+    background: rgb(221, 218, 219);
+    width: 50%;
+    padding: 3%;
+}
+
+.title {
+    color: rgb(10, 10, 10);
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subtitle {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+.profile {
+    background: rgb(221, 218, 219);
+    width: 42%;
+    flex-direction: column;
+    height: 500px;
+}
+
+.section-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.section-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.photo-profile {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.photo {
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interests {
+    padding: 3%;
+    height: 200px;
+}
+
+.div-buttons {
+    text-align: center;
+}
+
+.buttons {
+    border:  solid 1px rgb(255, 255, 255);
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    width: 100px;
+    height: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .menu-sobre-mim {
+        width: 95%;
+
+    }
+
+    .profile {
+        width: 100%;
+    }
+}
